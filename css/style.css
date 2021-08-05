@@ -1,0 +1,218 @@
+/*COMMON CSS START*/
+body{
+	font-family: 'PT Sans', sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	color: #010101;
+}
+/*COMMON CSS END*/
+/*HEADER START*/
+
+header{
+	background-color: #fcdb00;
+	padding: 20px 0;
+}
+.container{}
+.c_nav{}
+.logo{}
+.menu ul li a{
+	font-weight: 700;
+	font-size: 22px;
+	color: #010101 !important;
+	padding: 0 44px !important;
+}
+.menu ul li:last-child a{
+	padding-right: 0 !important;
+}
+.menu ul li a:hover{
+	color: white !important;
+}
+/*HEADER END*/
+
+/*SLIDER START*/
+.slider{
+	background-color: #fcdb00;
+	padding-bottom: 100px;
+}
+
+.cid .active {
+    opacity: 1;
+}
+.cid {
+   bottom: -80px;
+    }
+.cid [data-bs-target] {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+   background-color: white;
+    }
+.s_text{
+	margin-top: 60px;
+}
+.s_text h1{
+	margin-bottom: 15px;
+	font-family: 'PT Sans', sans-serif;
+	font-weight: 700;
+	font-size: 32px;
+}
+.s_text h2{
+	margin-bottom: 25px;
+	font-family: 'PT Sans', sans-serif;
+	font-weight: 400;
+	font-size: 20px;
+	color: #313841;
+}
+.s_text p{
+	margin-bottom: 35px;
+	font-family: 'PT Sans', sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	color: #555555;
+}
+.s_icon{}
+.s_icon ul li{
+    margin-right: 30px !important;
+}
+.s_icon ul li i{
+	 transition: .3s;
+	font-size: 42px;
+}
+.s_icon ul li i:hover{
+	transform: scale(0.8);
+	color: white;
+}
+.s_img{}
+.s_img img{}
+/*SLIDER END*/
+
+/*FEATURE START*/
+.feature{
+	padding-top: 100px;
+	padding-bottom: 120px;
+}
+.c_title{}
+.c_h1{
+	margin-bottom: 15px;
+	font-weight: 700;
+	font-size: 32px;
+}
+.c_text{
+	font-size: 20px;
+	color: #313841;
+	line-height: 25px;
+}
+.f_single{
+	margin-top: 60px;
+}
+.f_icon{}
+.f_icon i{
+	transition: .3s;
+	font-size: 50px;
+	margin-top: 3px;
+}
+.f_icon i:hover{
+    transform: scale(0.8);
+}
+.f_text{}
+.f_text h2{
+	margin-bottom: 15px;
+	font-weight: 400;
+	font-size: 22px;
+}
+.f_text p{
+	margin-bottom: 0;
+	color: #898989;
+	line-height: 20px;
+	letter-spacing: 1px;
+}
+/*FEATURE END*/
+
+/*Contact start*/
+.contact{
+	padding-top: 100px;
+	padding-bottom: 120px;
+	background-color: #010101;
+}
+.yellow{
+	color: #fcdb00;
+}
+.ash{
+	color: #898989;
+}
+.mtb-custom{
+	margin-top: 30px;
+	margin-bottom: 70px;
+}
+.c_email{
+	width: 100%;
+	height: 55px;
+	padding: 10px 20px;
+	border: 1px solid black;
+	border-radius: 5px;
+	font-family: 'PT Sans', sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	color: #898989;
+}
+.c_email:focus{
+	border-color: black;
+	outline: 0;
+	box-shadow: none;
+	color: #898989;
+	background-color: white;
+}
+.btn_submit{
+	width: 100%;
+	height: 55px;
+	background-color: #FBDA18;
+	font-family: 'PT Sans', sans-serif;
+	font-weight: 700;
+	font-size: 16px;
+	color: black;
+}
+.btn_submit:hover{
+	background-color: white;
+}
+.btn_submit:focus{
+	box-shadow: none;
+}
+.c_social{}
+.c_social ul li{
+	margin-right: 25px !important;
+}
+.c_social ul li:last-child{
+	margin-right: 0 !important;
+}
+.c_social ul li a{
+	display: block;
+	width: 40px;
+	height: 40px;
+	border-radius: 5px;
+	background-color: yellow;
+}
+.c_social ul li a:hover{
+	background-color: white;
+}
+.c_social ul li i{
+	font-size: 42px;
+	color: black;
+}
+/*Contact end*/
+
+/*FOOTER START*/
+footer{
+	background-color: black;
+	padding-bottom: 120px;
+}
+.f_1{
+	color: white;
+}
+.f_2{
+
+}
+.f_2 p a{
+	color: white;
+	text-decoration: none;
+}
+/*FOOTER END*/

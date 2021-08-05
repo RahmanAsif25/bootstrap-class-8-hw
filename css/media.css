@@ -1,0 +1,252 @@
+ /*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+    /*HEADER START*/
+     .menu ul li a{
+      font-size: 20px;
+      text-align: right;
+      padding: 10px 0 0 !important;
+     }
+    /*HEADER END*/
+    /*SLIDER START*/
+     /*SLIDER START*/
+     .slider {
+    background-color: #fcdb00;
+    padding-bottom: 70px;
+}
+.s_text {
+    margin-top: 20px;
+    font-size: 17px;
+}
+.s_text h1 {
+   font-size: 25px;
+}
+.s_icon ul li {
+    margin-right: 20px !important;
+}
+.s_icon ul li i {
+    transition: .3s;
+    font-size: 35px;
+}
+.cid {
+    bottom: -55px;
+}
+
+    /*SLIDER END*/
+        /*FEATURE START*/
+     .feature {
+    padding-top: 50px;
+    padding-bottom: 70px;
+}
+     .c_h1{
+        margin-bottom: 10px;
+        font-size: 30px;
+     }
+     .c_text{
+        margin-bottom: 0;
+     }
+     .f_single{
+        margin-top: 30px;
+        text-align: center;
+     }
+     .f_text h2{
+        margin-top: 5px;
+        margin-bottom: 5px;
+     }
+     .f_icon{
+        font-size: 45px;
+     }
+    /*FEATURE END*/
+   /*CONTACT START*/
+    .mtb-custom {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+/*CONTACT START*/
+     .mtb-custom {
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+.contact{
+        padding-top: 50px;
+        padding-bottom: 70px;
+    }
+    .c_email {
+    height: 45px;
+    padding: 5px 10px;
+}
+.btn_submit {
+   height: 45px;
+   font-size: 18px;
+
+}
+.c_social ul li i {
+    font-size: 35px;
+    color: black;
+}
+.c_social ul li a{
+    width: 35px;
+    height: 35px;
+}
+    
+    /*CONTACT END*/
+   /*CONTACT END*/
+     /*FOOTER START*/
+     .f_1{
+    text-align: center;
+    margin-bottom: 35px;
+}
+.f_2{
+  text-align: center;
+}
+footer {
+    padding-bottom: 35px;
+}
+    /*FOOTER END*/
+    
+}
+
+ /*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+    /*HEADER START*/
+     .menu ul li a{
+      font-size: 20px;
+      text-align: right;
+      padding: 10px 0 0 !important;
+     }
+    /*HEADER END*/
+    /*SLIDER START*/
+     .slider {
+    background-color: #fcdb00;
+    padding-bottom: 70px;
+}
+.s_text {
+    margin-top: 20px;
+}
+.s_icon ul li {
+    margin-right: 20px !important;
+}
+.s_icon ul li i {
+    transition: .3s;
+    font-size: 35px;
+}
+.cid {
+    bottom: -55px;
+}
+
+    /*SLIDER END*/
+     /*FEATURE START*/
+     .feature {
+    padding-top: 50px;
+    padding-bottom: 70px;
+}
+     .c_h1{
+        margin-bottom: 10px;
+        font-size: 30px;
+     }
+     .c_text{
+        margin-bottom: 0;
+     }
+     .f_single{
+        margin-top: 30px;
+        text-align: center;
+     }
+     .f_text h2{
+        margin-top: 5px;
+        margin-bottom: 5px;
+     }
+    /*FEATURE END*/
+    /*CONTACT START*/
+     .mtb-custom {
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+.contact{
+        padding-top: 50px;
+        padding-bottom: 70px;
+    }
+    .c_email {
+    height: 45px;
+    padding: 5px 10px;
+}
+.btn_submit {
+   height: 45px;
+
+}
+.c_social ul li i {
+    font-size: 35px;
+    color: black;
+}
+.c_social ul li a{
+    width: 35px;
+    height: 35px;
+}
+    
+    /*CONTACT END*/
+    /*FOOTER START*/
+     .f_1{
+    text-align: center;
+    margin-bottom: 35px;
+}
+.f_2{
+  text-align: center;
+}
+footer {
+    padding-bottom: 70px;
+}
+    /*FOOTER END*/
+}
+
+ /*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+    /*HEADER START*/
+     .menu ul li a{
+      text-align: right;
+      padding: 10px 0 0 !important;
+     }
+    /*HEADER END*/
+    /*SLIDER START*/
+      .s_text{
+        margin-top: 50px;
+      }
+    /*SLIDER END*/
+    /*FEATURE START*/
+     .feature {
+    padding-top: 80px;
+    padding-bottom: 100px;
+}
+.f_single{
+    margin-top: 40px;
+}
+    /*FEATURE END*/
+    /*CONTACT START*/
+      .mtb-custom {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.contact{
+        padding-top: 80px;
+        padding-bottom: 100px;
+    }
+    /*CONTACT END*/
+    /*FOOTER START*/
+     footer {
+    padding-bottom: 100px;
+}
+    /*FOOTER END*/
+
+}
+
+ /*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+}
+
+  /*X-Large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+
+}
+
+ /*XX-Large devices (larger desktops, 1400px and up)*/
+@media (min-width: 1400px) {
+	
+}
